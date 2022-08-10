@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#div1{
+    background-color: aqua;
+    height: 160px;
+    width: 300px;
+    
+}
+#div2{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
