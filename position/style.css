@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: aqua;
+    height: 2000px;
+    position: relative;
+
+}
+body{
+    
+    
+    margin: 20px;
+    
+    
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.486);
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 179, 0.521);
+    
+    position: sticky;
+    left: 0;
+    top: 140px;
+}
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 255, 0, 0.452);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
