@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+#div1{
+    background-color: aqua;
+    margin: 60px;
+    
+}
+ul{
+    list-style-type: none;
+} 
+li{
+    padding: 10px;
+
+}
+li::before{
+    content: "\2764";
+    color: red;
+   
+}
+li:hover{
+    background-color: blue;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    padding-right: 100px;
+}
