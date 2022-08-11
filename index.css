@@ -4,19 +4,41 @@
     box-sizing: border-box;
 }
 #div1{
-    background-color: aqua;
-    height: 160px;
-    width: 300px;
-    
+    background-color: rgba(0, 255, 255, 0.479);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 0;
+    top: 0;
+    position: sticky;
+    z-index: 3;
 }
 #div2{
     background-color: red;
     height: 200px;
     width: 200px;
+    position: absolute;
+    /* left: 100px;
+    top: 300px; */
+    z-index: 2;
+    /* position: fixed;
+    right: 0; */
+    
+
+}
+#div3{
+    background-color: rgb(255, 0, 191);
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
 }
 body{
-    display: flex;
+    position: relative;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
+    height: 3000px;
 
 }
