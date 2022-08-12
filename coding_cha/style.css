@@ -7,7 +7,7 @@
 #div1{
     background-color: white;
     width: 800px;
-    height: 400px;
+    height: 300px;
     display: flex;
     margin: 20% 20%;
     position: relative;
@@ -16,7 +16,7 @@
 }
 #div2{
     position: absolute;
-    top: 20%;
+    top: 13%;
     
     
 }
@@ -24,11 +24,11 @@
     position: absolute;
     right: 0px;
     left: 330px;
-    top: 110px;
+    top: 70px;
 
 }
 h1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 img{
     
