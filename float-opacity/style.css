@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#div1{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+#div2{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+#div3{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+#div4{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    
+}
+#div5{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+#div{}
+#div{}
