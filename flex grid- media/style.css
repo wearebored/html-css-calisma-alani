@@ -4,14 +4,32 @@
   box-sizing: border-box;
 }
 .div1 {
+  display: flex;
+  background-color: aqua;
+  height: 60vh;
 }
 .div1_1 {
+  background-color: rebeccapurple;
+  width: 150px;
+  height: 150px;
 }
 .div1_2 {
+  background-color: rgb(66, 51, 153);
+  width: 150px;
+  height: 150px;
 }
 .div1_3 {
+  background-color: rgb(153, 97, 51);
+  width: 150px;
+  height: 150px;
 }
 .div1_4 {
+  background-color: rgb(51, 116, 153);
+  width: 150px;
+  height: 150px;
 }
 .div1_5 {
+  background-color: rgb(153, 51, 51);
+  width: 150px;
+  height: 150px;
 }
