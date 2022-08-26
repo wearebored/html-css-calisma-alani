@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 44, 44, 0.562);
+}
+.div1 {
+  margin: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 3rem;
+  background-color: red;
+  border-radius: 50px;
+  border: solid 2px rgb(0, 0, 0);
+}
+.div2 {
+  margin: 0.7rem;
+  background-color: rgb(41, 201, 49);
+  width: 95%;
+  height: 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.div2 h2 {
+  margin-left: 2rem;
+  font-size: 2.2rem;
+  font-weight: 100;
+  color: white;
+}
+.div3 {
+  margin: 0.5rem;
+  background-color: rgb(102, 118, 163);
+  width: 95%;
+}
+.div3 ul {
+  display: flex;
+}
+.div3 ul li {
+  margin: 1rem 2rem;
+  list-style-type: none;
+}
+.div3 ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.div4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 95%;
+}
+.div4 div {
+  width: 50%;
+  height: 5rem;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div4 h3,
+p {
+  color: rgb(255, 255, 255);
+}
+.div4_1 {
+  background-color: rgb(134, 145, 177);
+}
+.div4_2 {
+  background-color: rgb(166, 175, 199);
+}
+.div4_3 {
+  background-color: rgb(175, 183, 204);
+}
+.div4_4 {
+  background-color: rgb(212, 217, 230);
+}
