@@ -51,6 +51,20 @@
   grid-row-end: 4;
   height: 100%;
 }
-.div14{
-    grid-area: 7/1/8/5;
+.div14 {
+  grid-area: 7/1/8/5;
+}
+.div16 {
+  grid-area: 8/2/9/4;
+}
+.div15 {
+  grid-area: 8/1/10/2;
+  height: 100%;
+}
+.div18 {
+  grid-area: 9/2/10/4;
+}
+.div17 {
+  grid-area: 8/4/10/5;
+  height: 100%;
 }
