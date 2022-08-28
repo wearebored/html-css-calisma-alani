@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  height: 100vh;
+}
+.divler {
+  border: solid red 2px;
+}
+.div1 {
+  grid-area: 1/1/2/5;
+  display: flex;
+  
+}
+.div2 {
+  grid-area: 2/1/7/2;
+  display: flex;
+}
+.div3 {
+  grid-area: 2/2/7/5;
+  display: flex;
+}
+.div4 {
+  grid-area: 7/1/8/5;
+  display: flex;
+}
