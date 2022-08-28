@@ -40,3 +40,17 @@
   grid-area: 3/ 2/ 7 /3;
   height: 100%;
 }
+.div11 {
+  grid-area: 5 / 1/7/2;
+  height: 100%;
+}
+.div9 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height: 100%;
+}
+.div14{
+    grid-area: 7/1/8/5;
+}
