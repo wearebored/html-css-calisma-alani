@@ -4,8 +4,215 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Check</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <h1>Checkout</h1>
+    <main>
+      <div class="forum">
+        <form action="">
+          <div class="first">
+            <h2>Contact Information</h2>
+
+            <label for="">Email</label>
+            <div class="full">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Enter your email..." />
+            </div>
+            <label for="">Phone</label>
+            <div class="full">
+              <i class="fa-solid fa-phone"></i>
+              <input type="phone" placeholder="Enter your phone..." />
+            </div>
+          </div>
+          <div class="end">
+            <h2>Shipping Adress</h2>
+            <label for="">Full Name</label>
+            <div class="full">
+              <i class="fa-solid fa-user"></i>
+              <input type="name" placeholder="Enter your Full name..." />
+            </div>
+            <label for="">Address</label>
+            <div class="full">
+              <i class="fa-solid fa-house-chimney"></i>
+              <input type="address" placeholder="Enter your address..." />
+            </div>
+            <label for="">City</label>
+            <div class="full">
+              <i class="fa-solid fa-city"></i>
+              <input type="city" placeholder="Enter your city..." />
+            </div>
+            <label for="">Country</label>
+            <div class="full country">
+              <i class="fa-solid fa-earth-europe"></i>
+              <select name="country" id="">
+                <option value="Turkey">Turkey</option>
+                <option value="Japan">Japan</option>
+                <option value="Finland">Finland</option>
+                <option value="Canada">Canada</option>
+                <option value="Istanbul">Istanbul</option>
+              </select>
+            </div>
+            <label for="">Post code</label>
+            <div class="full postcode">
+              <i class="fa-solid fa-envelopes-bulk"></i>
+              <input type="post code" placeholder="Enter your post code..." />
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" name="" id="" />
+              <label for="">See this information next time</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="box">
+        <div class="picture bottom1">
+          <div>
+            <img
+              src="./img/139-1399537_antique-telephone-01-old-telephone-transparent-background.png"
+              width="125px"
+              alt="phone"
+            />
+          </div>
+          <div class="next">
+            <div class="top">
+              <h3>Antique Telephone</h3>
+              <p class="price">
+                <strong>$25.99</strong>
+                <span class="exprice">$34.99</span>
+              </p>
+            </div>
+            <div class="bottom">
+              <button>
+                <i
+                  class="fa-solid fa-minus"
+                  style="background-color: rgb(230, 219, 219)"
+                ></i>
+              </button>
+              <p>1</p>
+              <button>
+                <i
+                  class="fa-solid fa-plus"
+                  style="background-color: rgb(230, 219, 219)"
+                ></i>
+              </button>
+            </div>
+            <div class="btn remove">
+              <button class="remove">Remove</button>
+              <p>Product Total: $<span>25.99</span></p>
+            </div>
+          </div>
+        </div>
+        <!------------2. foto ----------->
+        <div class="picture bottom2">
+          <div>
+            <img
+              src="./img/png-clipart-casket-antique-jewellery-gold-gemstone-antique.png"
+              width="125px"
+              alt="box"
+            />
+          </div>
+          <div class="next">
+            <div class="top">
+              <h3>Jewellery Box</h3>
+              <p class="price">
+                <strong>$45.99</strong>
+                <span class="exprice">$54.99</span>
+              </p>
+            </div>
+            <div class="bottom">
+              <button>
+                <i
+                  class="fa-solid fa-minus"
+                  style="background-color: rgb(230, 219, 219)"
+                ></i>
+              </button>
+              <p>1</p>
+              <button>
+                <i
+                  class="fa-solid fa-plus"
+                  style="background-color: rgb(230, 219, 219)"
+                ></i>
+              </button>
+            </div>
+            <div class="btn remove">
+              <button class="remove">Remove</button>
+              <p>Product Total: $<span>45.99</span></p>
+            </div>
+          </div>
+        </div>
+        <!------------3. foto ----------->
+        <div class="picture bottom3">
+          <div>
+            <img
+              src="./img/Gramophone-PNG-File.png"
+              width="125px"
+              alt="Gramophone"
+            />
+          </div>
+          <div class="next">
+            <div class="top">
+              <h3>Antique Gramophone</h3>
+              <p class="price">
+                <strong>$74.99</strong>
+                <span class="exprice">$94.99</span>
+              </p>
+            </div>
+            <div class="bottom">
+              <button>
+                <i
+                  class="fa-solid fa-minus"
+                  style="background-color: rgb(230, 219, 219)"
+                ></i>
+              </button>
+              <p>1</p>
+              <button>
+                <i
+                  class="fa-solid fa-plus"
+                  style="background-color: rgb(230, 219, 219)"
+                ></i>
+              </button>
+            </div>
+            <div class="btn remove">
+              <button class="remove">Remove</button>
+              <p>Product Total: $<span>74.99</span></p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="price s-total">
+            <p>Subtotal</p>
+            <p>$221.96</p>
+          </div>
+          <div class="price tax">
+            <p>Tax(%18)</p>
+            <p>$39.95</p>
+          </div>
+          <div class="price brand">
+            <p>Shipping</p>
+            <p>$19</p>
+          </div>
+          <div class="price">
+            <p>Total</p>
+            <p>$148.98</p>
+          </div>
+        </div>
+        <!------------- ALT KISIM ----------->
+        <div class="btn1">
+          <button id="btn">Continue</button>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
